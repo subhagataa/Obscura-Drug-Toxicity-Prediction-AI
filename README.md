@@ -137,7 +137,7 @@ pip install rdkit shap joblib imbalanced-learn
 pip install streamlit pubchempy pillow
 
 # 3. Run
-streamlit run app.py
+streamlit run app.py 
 
 ## 🔬 How It Works — Full Pipeline
 
