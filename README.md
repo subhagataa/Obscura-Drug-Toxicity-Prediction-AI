@@ -128,7 +128,7 @@ Obscura/
 ## 🚀 Setup & Installation
 
 # 1. Clone
-git clone https://github.com/subhagataa/Obscura-Drug-Toxicity-Prediction-AI.git
+git clone https://github.com/aishwariyasaha/Obscura-Drug-Toxicity-Prediction-AI.git
 cd Obscura-Drug-Toxicity-Prediction-AI
 
 # 2. Install dependencies
