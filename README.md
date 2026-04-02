@@ -127,57 +127,17 @@ Obscura/
 
 ## 🚀 Setup & Installation
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/aishwariyasaha/Obscura-Drug-Toxicity-Prediction-AI.git
+# 1. Clone
+git clone https://github.com/subhagataa/Obscura-Drug-Toxicity-Prediction-AI.git
 cd Obscura-Drug-Toxicity-Prediction-AI
-```
 
-### 2. Install dependencies
-```bash
+# 2. Install dependencies
 pip install lightgbm xgboost scikit-learn numpy pandas matplotlib seaborn
 pip install rdkit shap joblib imbalanced-learn
 pip install streamlit pubchempy pillow
-```
 
-### 3. Download the dataset
-Place the Tox21 dataset at `data/raw/tox21.csv`.
-Dataset source: [Kaggle — Tox21 Dataset](https://www.kaggle.com/datasets/epicskills/tox21-dataset)
-
----
-
-## 🏃 Running the Pipeline
-
-### Step 1 — Train the model
-```bash
-python run.py
-```
-
-Optional flags:
-```bash
-python run.py --optuna --n-trials 30    # Hyperparameter optimization via Optuna
-python run.py --label majority          # Use majority-vote label strategy
-python run.py --no-rf                   # Skip Random Forest for faster training
-```
-
-This will generate all model artifacts inside `models/` and evaluation plots inside `outputs/`.
-
-### Step 2 — (Optional) Generate visualizations
-```bash
-python visualize.py --data data/raw/tox21.csv --output outputs/
-```
-
-### Step 3 — Launch the prediction interface
-```bash
+# 3. Run
 streamlit run app.py
-```
-
-### Quick model sanity check
-```bash
-python test_model.py
-```
-
----
 
 ## 🔬 How It Works — Full Pipeline
 
